@@ -1,0 +1,40 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+// icons styles
+.main-icons{
+  // position: absolute;
+  width: 25px;
+  height: 25px;
+  // top: -5px;
+  // left: -16px;
+}
+// footer
+#app .weui-tabbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 500;
+  bottom: 0;
+  width: 100%;
+  background-color: #F7F7FA;
+  // height: 5rem;
+  padding: .1rem;
+}
+.weui-tabbar__item{
+  text-decoration: none;
+}
+
+.t_size{
+  font-size:14px;
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+  color:#000;
+}
